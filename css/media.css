@@ -1,0 +1,271 @@
+
+@media screen and (min-width: 500px){
+
+    .homeContent h2{
+        
+        font-size: 45px;
+        
+    }
+}
+
+@media screen and (min-width: 700px){
+
+    .homeContent h2{
+        
+        font-size: 50px;
+        
+    }
+
+    .headerMark p{
+        font-size: 90px;
+     }
+
+     .resumeContent{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eduContent, .expContent{
+        
+        width: 45%;
+        padding-top: 50px;
+    
+    }
+
+    .masonryGrid{
+
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .topMenu{
+
+        width: 100%;
+    }
+
+    .gridColumn{
+        width: 30%;
+    }
+    
+
+}
+
+
+
+@media screen and (min-width: 992px){
+   /* Nav Bar */
+    .logo{
+        width: 15%;
+    }
+    
+    .navBar{
+        width: 75%;
+        transform: translate(0%, -0%);
+        transition: all 0s;
+        position: relative;
+        top: 0;
+        z-index: 10;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navBar ul{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .navBar ul li{
+        padding: 0px 15px;
+    }
+
+    .navBar ul li::after{
+        content: '';
+        position: absolute;
+        height: 0px;
+        width: 0%;
+    }
+
+    .navHam{
+        display: none;
+    
+    }
+
+    .rightSection{
+        width: 10%;
+        gap: 5px;
+    }
+
+    /* Home Section */
+    .homeContent h2{
+        
+        font-size: 55px;
+        
+    }
+
+    /* About Section */
+    .headerMark p{
+        font-size: 120px;
+     }
+
+     .aboutContent{
+        flex-direction: row;
+        flex-wrap: wrap;
+     }
+
+     .aboutLeft{
+        width: 60%;
+        align-items: flex-start;
+        text-align: left;
+     }
+
+     .aboutRight{
+        width: 40%;
+        padding-left: 30px;
+    }
+
+    .aboutCounters{
+        grid-template-columns: repeat(4, 1fr);
+        padding-top: 30px;
+    
+     }
+
+     .aboutCounters .counter:nth-child(1), .aboutCounters .counter:nth-child(2) {
+        border-bottom: none;
+     }
+
+     .aboutCounters .counter:nth-child(3) {
+        border-left: 1px solid #eaeaea;
+     }
+
+     .aboutCounters .counter:nth-child(1) h3:before {
+        font-size: 44px;
+    }
+    
+    .aboutCounters .counter:nth-child(2) h3:before {
+        font-size: 44px;
+    }
+    
+    .aboutCounters .counter:nth-child(3) h3:before {
+        font-size: 44px;
+    }
+    
+    .aboutCounters .counter:nth-child(4) h3:before {
+        font-size: 44px;
+    }
+
+    /* Services Section */
+    .serviceContent{
+ 
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: end;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .service{
+        width: 90%;
+    }
+
+    /* Client Section */
+    
+    .clientContent{
+
+        flex-wrap: nowrap;
+        row-gap: 0px;
+        column-gap: 20px;
+    }
+
+    .client{
+        width: 50%;
+    }
+
+    /* Contact Section */
+
+
+
+    .contactContent {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 95%;
+        flex-direction: row-reverse;
+        
+    }
+
+    .contactContent form {
+        width: 60%;
+        margin-bottom: 0;
+        column-gap: 10px;
+    }
+
+    .contactContent form input[type="text"],
+.contactContent form input[type="email"]{
+    width: 49%;
+}
+
+
+    .contactInfo {
+        width: 40%; 
+        text-align: left;
+    }
+
+
+
+    .contactInfo p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .contactInfo .social-icons {
+        margin-top: 20px;
+        justify-content: flex-start;
+    }
+
+  /* Footer */
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 80px;
+        min-height: 150px;
+    }
+
+    .footer .top {
+        text-align: left;
+    }
+
+    
+
+}
+
+
+@media screen and (min-width: 1100px){
+
+    .homeContent h2{
+        
+        font-size: 55px;
+        
+    }
+    
+    .headerMark p{
+        font-size: 140px;
+     }
+}
+
+@media screen and (min-width: 1300px){
+
+    .homeContent h2{
+        
+        font-size: 64px;
+        
+    }
+
+
+}
